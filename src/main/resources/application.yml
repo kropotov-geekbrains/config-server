@@ -5,9 +5,11 @@ spring:
     config:
       server:
         git:
-          uri: ${PROPS_REPO:ssh://localhost/config}
+          uri: ${PROPS_REPO:C:\\Users\\AKropotov\\Downloads\\config}
           clone-on-start: true
+          username: ${REPO_USER:git_geek}
+          password: ${REPO_PASS:git_geek_pass}
   security:
     user:
-      name: ${REPO_USER:geek}
-      password: ${REPO_PASS:geek_pass}
+      name: ${SERVER_USER:geek}
+      password: ${SERVER_PASS:geek_pass}
