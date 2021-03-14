@@ -1,0 +1,13 @@
+server:
+  port: ${PORT:9997}
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${PROPS_REPO:ssh://localhost/config}
+          clone-on-start: true
+  security:
+    user:
+      name: ${REPO_USER:geek}
+      password: ${REPO_PASS:geek_pass}
