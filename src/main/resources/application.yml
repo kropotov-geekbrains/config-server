@@ -1,3 +1,4 @@
+server.servlet.context-path: '/API/v1/myshop'
 server:
   port: ${PORT:9997}
 spring:
