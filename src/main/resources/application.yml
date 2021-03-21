@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: ${PROPS_REPO:C:\\Users\\AKropotov\\Downloads\\config}
+          uri: ${https://github.com/kropotov-geekbrains/configs.git}
           clone-on-start: true
           username: ${REPO_USER:git_geek}
           password: ${REPO_PASS:git_geek_pass}
