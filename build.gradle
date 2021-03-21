@@ -20,10 +20,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.cloud:spring-cloud-config-server'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	testImplementation 'org.springframework.security:spring-security-test'
-	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent
-	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-parent', version: '2.4.4', ext: 'pom'
+
 }
 
 dependencyManagement {
